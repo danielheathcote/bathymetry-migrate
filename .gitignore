@@ -1,0 +1,14 @@
+# Poetry virtualenv
+.venv/
+
+# Generated outputs: NetCDF datasets and figures from bathymetry_migrate.py
+# and plot_migrated_sea_level.py. Both directories are recreated on the next run.
+migrated_bathymetry/
+figures/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/

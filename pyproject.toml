@@ -1,0 +1,21 @@
+[project]
+name = "bathymetry-migrate"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Dan",email = "d.a.heathcote@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel (>=7.3.0,<8.0.0)",
+    "pyslfp @ git+https://github.com/da380/pyslfp.git@feature/non-extended-grids",
+    "netcdf4 (>=1.7.4,<2.0.0)",
+    "cmocean (>=4.0.3,<5.0.0)",
+    "matplotlib (>=3.10,<3.11)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
